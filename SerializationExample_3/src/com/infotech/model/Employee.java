@@ -9,6 +9,8 @@ public class Employee implements Serializable {
 	private String name;
 	private int age;
 	private String email;
+	
+	//transient field can not be the part of Serialization process.
 	private transient String password;
 	
 	private Address address;
